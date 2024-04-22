@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-btwn {
+    justify-content: space-between;
+}
+
+.bg-blue {
+    background: #2F1893;
+}
+
+.startup {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.2926828861236572px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.feature {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.feature:hover {
+    text-decoration: underline;
+}
+
+.subscribe {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.subscribe:hover{
+    text-decoration: underline;
+}
+
+.gap-719 {
+    gap: 719px;
+}
+
+.min-vh-100 {
+    min-width: 100vh;
+}
+
+.gap-33 {
+    gap: 33px;
+}
+
+
+.signBtn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 100px;
+    color: #FFFFFF;
+    background: #482BE7;
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.signBtn:hover {
+    background-color: white;
+    color: #482BE7;
+}
+
+.pt-53 {
+    padding-top: 53px;
+}
+
+.heading {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 607px;
+}
+
+.pt-304 {
+    padding-top: 304.8px;
+}
+
+.FC {
+    flex-direction: column;
+}
+
+
+
+.emailhead {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #8274BE;
+    background: transparent;
+    border-radius: 100px;
+    height: 60px;
+    margin-top: 73.2px;
+    border: 2px solid #5946A9;
+    padding-left: 24px;
+    Opacity: 40%;
+    outline: none;
+    width: 350px;
+}
+
+
+.sendhead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #25DAC5;
+    border-radius: 100px;
+    height: 60px;
+    width: 120px;
+    margin-top: 73.2px;
+    border: none;
+    cursor: pointer;
+}
+
+.sendhead:hover{
+    background: white;
+    border: 3px solid #25DAC5;
+    color: black;
+}
+
+.pt-32{
+    padding-top: 32.4px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.byhead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #FFFFFF;
+    Opacity: 30%;
+}
